@@ -1,0 +1,32 @@
+# Secrets and local environment
+backend/.env
+.env
+.env.*
+!.env.example
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# JavaScript dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local agent/editor metadata
+.codebuddy/
+.workbuddy/
+.uploads/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
