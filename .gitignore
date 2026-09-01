@@ -27,6 +27,11 @@ frontend/dist/
 .vscode/
 .idea/
 
+# Keep local-only deployment and contest materials out of the public repository
+DEPLOY_DOCKER.md
+TRAE_CONTEST_ARTICLE.md
+docker-compose.yml
+
 # OS files
 .DS_Store
 Thumbs.db
